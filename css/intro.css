@@ -1,0 +1,69 @@
+body{
+    background-image: url(../images/1108171.png);
+    position: relative;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: rgb(223, 254, 255);
+    font-family: Bahnschrift SemiCondensed;
+    font-size: 100px;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.typewriter p {
+    text-align: center;
+    color: #fff;
+    width: 81%;
+    font-size: 50px;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 81% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+.box {
+    width: 10%;
+    background: rgba(255,255,255,0.2);
+    margin-top: 30vh;
+    margin-left: 60vh;
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.button:hover {
+    background: #06D85F;
+}
+  
